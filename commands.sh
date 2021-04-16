@@ -9,3 +9,6 @@ go run .
 
 # to build the project
 go build .
+
+# to build the runtime environment
+docker build --target runtime -t ${PROJECT_NAME} .
