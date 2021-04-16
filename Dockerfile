@@ -6,7 +6,7 @@ COPY . .
 
 RUN go build .
 
-FROM golang:1.16.3-alpine AS runtime
+FROM gcr.io/distroless/static AS runtime
 
 WORKDIR /app
 
