@@ -18,3 +18,6 @@ docker run --rm -it ${PROJECT_NAME}
 
 # to create an alias for the docker run command
 alias ${PROJECT_NAME}="docker run --rm -it ${PROJECT_NAME}"
+
+# to check the sizes of images
+docker image list
