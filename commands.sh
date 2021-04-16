@@ -6,3 +6,6 @@ go mod init github.com/${ACCOUNT_NAME}/${PROJECT_NAME}
 
 # to run the project
 go run .
+
+# to build the project
+go build .
